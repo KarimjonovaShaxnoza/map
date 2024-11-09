@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f5f9;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.centeiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 4px 8.7px 0px #00000040;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container1{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+ul {
+  align-items: center;
+  display: flex;
+  padding-left: 10px;
+  list-style: none;
+  gap: 64px;
+}
+
+li {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 10px;
+}
+
+ul,li,a {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-decoration: none;
+  color: #bcaaaa;
+}
+
+.red {
+  color: #ff003f;
+}
+
+.btnn1 {
+  width: 245px;
+  height: 45px;
+  background: #f3f5f9;
+  border-radius: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #ff003f;
+  border: 1px solid #ff4c67;
+}
+
+.h1 {
+  width: 150px;
+  height: 45px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 45px;
+  color: #ff003f;
+}
+
+.h2 {
+  width: 200px;
+  height: 45px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.img1 {
+  width: 45px;
+  height: 45px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left1 {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-top: 5px;
+}
+
+.right1 {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-top: 10px;
+}
+
+.right1 h1 {
+  font-size: 25px;
+}
+
+.left1 h1 {
+  margin-left: 80px;
+  font-size: 25px;
+}
+
+.row2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+  padding-bottom: 20px;
+}
+
+.p33 {
+  width: 150px;
+  height: 45px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.searchInput:hover {
+  background-color: #c7f0ec;
+}
+
+.box1 {
+  width: 290px;
+  height: 250px;
+  border: 2px solid #f3f5f9;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  padding:20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center ;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.box1 {
+  
+}
+
+span1 {
+  color: #ff003f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span11 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.box11 {
+  width: 300px;
+  height: 100px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.cards1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.img1 {
+  margin-right: 70px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.search-bar input {
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 320px;
+  height: 50px;
+  background-color: #000000;
+  color: white;
+  font-family: Inter;
+  font-size: 24px;
+}
+
+.search-bar button {
+  width: 116px;
+  height: 50px;
+  border-radius: 20px;
+  background: #0d0d5b;
+  color: white;
+  font-size: 24px;
+}
